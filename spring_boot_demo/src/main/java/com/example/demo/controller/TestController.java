@@ -10,7 +10,7 @@ import com.example.demo.model.Test;
 @RestController
 public class TestController {
 
-    private static final String template = "Hello, %s!";
+    private static final String template = "这个第三次修改，Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/test")
