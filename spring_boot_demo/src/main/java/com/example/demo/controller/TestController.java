@@ -13,7 +13,7 @@ import com.example.demo.model.Test;
 public class TestController {
 	
 
-    private static final String template = "这个第19次修改，Hello, %s!";
+    private static final String template = "这个第20次修改，Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/test")
